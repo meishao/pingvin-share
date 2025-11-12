@@ -20,7 +20,7 @@ jobs:
           #  ghcr.io/${{ github.repository }}
           #  ${{ github.repository }}
           images: |
-            ${{ github.repository }}
+            wokeya/pingvin-share
           tags: |
             type=semver,pattern={{version}},prefix=v
             type=semver,pattern={{major}}.{{minor}},prefix=v
